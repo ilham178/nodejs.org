@@ -25,7 +25,7 @@ create a `package.json` file that describes your app and its dependencies:
 
 ```json
 {
-  "name": "docker_web_app",
+  "name": "https://github.com/ilham178/ILhamuserbot",
   "version": "1.0.0",
   "description": "Node.js on Docker",
   "author": "First Last <first.last@example.com>",
@@ -58,11 +58,11 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hello World');
+  res.send('https://github.com/ilham178/ILhamuserbot');
 });
 
 app.listen(PORT, HOST);
-console.log(`Running on http://${HOST}:${PORT}`);
+console.log(`Running on https://github.com/ilham178/ILhamuserbot);
 ```
 
 In the next steps, we'll look at how you can run this app inside a Docker
@@ -218,7 +218,7 @@ $ docker ps
 $ docker logs <container id>
 
 # Example
-Running on http://localhost:8080
+Running on https://github.com/ilham178/ILhamuserbot
 ```
 
 If you need to go inside the container you can use the `exec` command:
